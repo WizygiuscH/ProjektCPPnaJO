@@ -1,0 +1,23 @@
+Program konsolowy w C++, który pozwala użytkownikowi rezerwować i zwalniać miejsca, np. w kinie, autobusie lub na sali koncertowej.
+Główne funkcje
+- Wyświetlanie planu miejsc i informacji, które są wolne, a które zajęte.
+- Rezerwowanie wybranego miejsca.
+- Anulowanie rezerwacji.
+- Wyszukiwanie rezerwacji po numerze.
+- Wyświetlanie listy wszystkich rezerwacji.
+Klasy w programie
+Klasa    Zastosowanie
+Miejsce    Numer miejsca i informacja o jego dostępności.
+Rezerwacja    Dane rezerwacji, np. imię klienta i numer miejsca.
+SystemRezerwacji    Zarządzanie miejscami i rezerwacjami.
+
+Przykładowe menu
+=== SYSTEM REZERWACJI ===
+1. Pokaz miejsca
+2. Zarezerwuj miejsce
+3. Anuluj rezerwacje
+4. Pokaz rezerwacje
+0. Wyjscie
+
+
+póki co działa wyłącznie kino i wyłącznie wyświetla miejsca, sa tam na sztywno dodane testowe by sprawdzic wyswietlanie.
